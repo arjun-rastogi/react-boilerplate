@@ -1,0 +1,26 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "i": "concurrently \"npm run i:client\" \"npm run i:server\"",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "i:c": "cd client && npm i --legacy-peer-deps",
+    "i:s": "cd server && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arjun-rastogi/react-boilerplate.git"
+  },
+  "author": "Arjun Rastogi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arjun-rastogi/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/arjun-rastogi/react-boilerplate#readme",
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}

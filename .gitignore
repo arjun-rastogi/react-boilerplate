@@ -1,0 +1,12 @@
+node_modules
+*.Log
+.env
+config/config.json
+ecosystem.config.js
+uploads
+ecosystem.config.js
+firebase-admin.json
+pathtrak-firebase-admin.json
+logitrak-firebase-admin.json
+# models/test
+.vscode
